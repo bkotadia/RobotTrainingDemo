@@ -1,0 +1,11 @@
+*** Settings ***
+Library           ExcelLibrary
+
+*** Variables ***
+${car1}           4
+${car2}           4
+
+*** Keywords ***
+Compare Two Variables
+    [Arguments]    ${car1}    ${car2}
+    Should Be Equal As Integers    ${car1}    ${car2}

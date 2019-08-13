@@ -1,0 +1,6 @@
+*** Settings ***
+Library           SeleniumLibrary
+Library           DateTime
+Resource          CommonlyUsedKeyWords.txt
+Library           ExcelLibrary
+Resource          ExcelDataFetch.txt
